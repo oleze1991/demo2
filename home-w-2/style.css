@@ -1,0 +1,62 @@
+img{
+    object-fit: cover;
+    height: 150px;
+    width: 120px;
+}
+
+nav > a{
+   /* color: red;*/
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    height: 50px;
+    width: 30px;
+}
+
+.nav-link{
+    color: green;
+    padding: 10px;
+}
+
+a:hover{
+    color: #444;
+}
+
+li, p{
+    color: rgb(15, 15, 15);
+}
+
+#about{
+   /* font-style: italic;*/
+   text-align: justify;
+}
+
+#about span{
+    display: block;
+    text-align: center;
+}
+
+#about a{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration-line: none
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-r{
+    display: flex;
+    flex-direction: row;
+}
+
+div{
+    padding: 0 10px;
+}
