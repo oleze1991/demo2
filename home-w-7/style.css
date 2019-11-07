@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+.converter{
+  margin: 50px auto;
+  width: 500px;
+  padding: 30px;
+  background: #4967;
+}
+
+.show{
+  display: flex;
+}
+
+.two{
+  padding-left: 20px;
+}
+
+.conv{
+  display: flex;
+}
+
+input, select{
+  height: 30px;
+  margin: 5px 5px 5px 0;
+  border-radius: 5px;
+  border-style: groove;
+}
+
+img{
+  width: 80px;
+  border-radius: 20px;
+}

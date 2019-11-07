@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Currency converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="converter">
+    <p>1 <span class="one">UAH</span> дорівнює</p>
+    <div class="show">
+      <h1 class="price">0.036 </h1> 
+      <h1> <span class="two">EUR</span></h1>
+    </div>
+    <!-- <time class="time">7 лист., 12:06 UTC</time> -->
+    <div class="conv">
+      <div>
+        <input id="first" type="number" onkeyup="convert('F');" onchange="convert('F')" value="">
+        <select id="currency-f" onchange="convert('F')">
+          <option value="0">Євро (EUR)</option>
+          <option value="1">Долар США (USD)</option>
+          <option value="2">Злоті (PLN)</option>
+          <option value="3" selected="">Гривні (UAH)</option>
+          <option value="4">Леви (LEV)</option>
+        </select>
+        <input id="second" type="number" onkeyup="convert('S');" onchange="convert('S')" value="">
+        <select id="currency-s" onchange="convert('S')">
+          <option value="0">Євро (EUR)</option>
+          <option value="1" selected="">Долар США (USD)</option>
+          <option value="2">Злоті (PLN)</option>
+          <option value="3">Гривні (UAH)</option>
+          <option value="4">Леви (LEV)</option>
+        </select>
+      </div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5RjKEiaghbfGfEyoZgV2YAMZ7JrH8VgEfHoEcHCEiccYiTQ0k&s" alt="">
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
